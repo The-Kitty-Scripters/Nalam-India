@@ -91,6 +91,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "nalam.users",
+    "nalam.girls",
     "nalam.subscriptions",
     # Your stuff: custom apps go here
 ]

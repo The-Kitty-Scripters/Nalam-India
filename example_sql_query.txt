@@ -1,0 +1,15 @@
+INSERT INTO girls_girls
+(first_name, last_name, email, unique_id, background, "DOB", year_joined_orphanage, current_location,
+ year_of_graduation, dream_job, year_self_sufficiency, time_to_self_sufficency, estimate_funding,
+ picture_url, explicit_permission, personal_story)
+VALUES
+('Janaki', 'null', 'Janaki@email.com', 'UID12345', 'OR', '2005-04-23 00:00:00', '2010',
+ 'In-School', '2024', 'Doctor', '2028', '4', 1500.00, 'http://example.com/pic1.jpg', FALSE, 'Alice''s story'),
+('Pavithra', 'null', 'Pavithra.india@email.com', 'UID12346', 'HALF', '2006-05-24 00:00:00', '2011',
+ 'LOC2', '2025', 'Engineer', '2029', '5', 2000.00, 'http://example.com/pic2.jpg', TRUE, 'Beth''s story'),
+('Yamini', 'null', 'Yamini@email.com', 'UID12347', 'DEST', '2007-06-25 00:00:00', '2012',
+ 'LOC3', '2026', 'Teacher', '2030', '6', 200.00, 'http://example.com/pic3.jpg', TRUE, 'Clara''s story'),
+('Shruti', 'null', 'Shruti@email.com', 'UID12347', 'DEST', '2007-06-25 00:00:00', '2012',
+ 'LOC3', '2026', 'Teacher', '2030', '6', 3500.00, 'http://example.com/pic3.jpg', TRUE, 'Clara''s story'),
+('Lavanya', 'null', 'Lavanya@email.com', 'UID12347', 'DEST', '2007-06-25 00:00:00', '2012',
+ 'LOC3', '2021', 'Teacher', '2030', '6', 500.00, 'http://example.com/pic3.jpg', TRUE, 'Clara''s story');

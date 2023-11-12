@@ -1,3 +1,11 @@
 {% extends "base.html" %}
 
-
+{% block content %}
+  <script src="https://js.stripe.com/v3/"></script>
+  <section class="mt-5">
+    <form action="/subscriptions/create-checkout-session/" method="POST">
+      {% csrf_token %}
+      <button class="btn btn-lg btn-primary" type="submit" id="checkout-button">Checkout</button>
+    </form>
+  </section>
+{% endblock content %}

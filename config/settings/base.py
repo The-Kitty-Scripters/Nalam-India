@@ -92,6 +92,8 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "nalam.users",
     "nalam.email_sendgrid.apps.EmailSendgridConfig"
+    "nalam.girls",
+    "nalam.subscriptions",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -347,3 +349,5 @@ SPECTACULAR_SETTINGS = {
 }
 # Your stuff...
 # ------------------------------------------------------------------------------
+STRIPE_WEBHOOK_SECRET_ENDPOINT = env("STRIPE_WEBHOOK_SECRET_ENDPOINT")
+STRIPE_SECRET_KEY = env("STRIPE_SECRET_KEY")

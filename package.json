@@ -6,9 +6,9 @@
     "autoprefixer": "^10.4.0",
     "bootstrap": "^5.2.3",
     "browser-sync": "^2.27.7",
-    "gulp-concat": "^2.6.1",
     "cssnano": "^6.0.0",
     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^9.0.1",
@@ -29,5 +29,8 @@
   "scripts": {
     "dev": "gulp",
     "build": "gulp generate-assets"
+  },
+  "dependencies": {
+    "ipython": "^0.0.1"
   }
 }

@@ -91,6 +91,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "nalam.users",
+    "nalam.email_sendgrid.apps.EmailSendgridConfig"
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

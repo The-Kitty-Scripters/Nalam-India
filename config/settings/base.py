@@ -91,7 +91,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "nalam.users",
-    "nalam.email_sendgrid.apps.EmailSendgridConfig"
+    "nalam.email_sendgrid",
     "nalam.girls",
     "nalam.subscriptions",
     # Your stuff: custom apps go here
